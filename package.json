@@ -1,0 +1,17 @@
+{
+  "name": "wasm-bridge",
+  "version": "0.1.0",
+  "description": "Typed WebAssembly bridge for TypeScript and JavaScript",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
