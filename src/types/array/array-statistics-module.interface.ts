@@ -19,9 +19,7 @@ export interface ArrayStatisticsModule {
     averageArrayDouble(array: VectorInstanceCpp<number>): number;
     minArrayDouble(array: VectorInstanceCpp<number>): number;
     maxArrayDouble(array: VectorInstanceCpp<number>): number;
-}
 
-export interface AdvancedStatisticsModule extends ArrayStatisticsModule {
     medianInt(array: VectorInstanceCpp<number>): number;
     stdDevFloat(array: VectorInstanceCpp<number>): number;
     percentileDouble(array: VectorInstanceCpp<number>, p: number): number;

@@ -1,4 +1,4 @@
-import {EmscriptenModule, TypedModule} from "../types/emscripten-module.interface";
+import { EmscriptenModule, TypedModule } from "../types/emscripten-module.interface";
 
 export type WasmModuleFactory = () => Promise<EmscriptenModule>;
 
