@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "description": "Typed WebAssembly bridge for TypeScript and JavaScript",
   "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "wasm-modules",
+    "cpp"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
