@@ -9,11 +9,10 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "wasm-modules",
-    "cpp"
+    "dist/wasm-modules"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc && node scripts/copy-wasm.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
