@@ -1,3 +1,5 @@
+export { WasmLoader, WasmModuleFactory } from './loader/wasm-loader';
+
 import { ArrayStatisticsModule } from "./types/array/array-statistics-module.interface";
 import { ArraySortModule } from "./types/array/array-sort-module.interface";
 import { BasicMathModule } from "./types/basic-math/basic-math-module.interface";
