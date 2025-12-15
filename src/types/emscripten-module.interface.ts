@@ -12,5 +12,5 @@ export interface EmscriptenModule {
   [exportedFn: string]: unknown;
 }
 
-export type TypedModule<T> = EmscriptenModule & T;
+export type WasmModule<T> = EmscriptenModule & T;
 
