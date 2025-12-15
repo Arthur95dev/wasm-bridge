@@ -19,10 +19,7 @@
 - 📦 **Modular architecture** — подключай только нужные wasm-модули
 - ⚡ **ESM + tree-shaking friendly**
 
-## 📦 Installation
 
-```bash
-npm install wasm-bridge
 
 ## 🧪 Full Example: Using wasm-bridge Modules
 
@@ -72,4 +69,9 @@ async function runExample() {
 
 // Запускаем пример
 runExample().catch(console.error);
+
+## 📦 Installation
+
+```bash
+npm install wasm-bridge
 
